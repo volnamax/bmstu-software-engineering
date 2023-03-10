@@ -1,0 +1,247 @@
+\hypertarget{main_8c}{}\doxysection{main.\+c File Reference}
+\label{main_8c}\index{main.c@{main.c}}
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+{\ttfamily \#include $<$assert.\+h$>$}\newline
+{\ttfamily \#include $<$string.\+h$>$}\newline
+Include dependency graph for main.\+c\+:
+% FIG 0
+\doxysubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{main_8c_aeeb214a909a0b379a7db93875cda9daf}\label{main_8c_aeeb214a909a0b379a7db93875cda9daf}} 
+\#define {\bfseries N\+\_\+\+A\+RR}~1024
+\item 
+\mbox{\Hypertarget{main_8c_a7b03170fb4aba6c9588bdb2fca795488}\label{main_8c_a7b03170fb4aba6c9588bdb2fca795488}} 
+\#define {\bfseries C\+O\+D\+E\+\_\+\+P\+A\+SS}~0
+\item 
+\mbox{\Hypertarget{main_8c_a11304debf1119c31f466e0b96ac65510}\label{main_8c_a11304debf1119c31f466e0b96ac65510}} 
+\#define {\bfseries E\+R\+R\+\_\+\+O\+P\+EN}~1
+\item 
+\mbox{\Hypertarget{main_8c_aa660e1c33834a2a4a9090e93db418793}\label{main_8c_aa660e1c33834a2a4a9090e93db418793}} 
+\#define {\bfseries E\+R\+R\+\_\+\+N\+O\+T\+\_\+\+N\+UM}~2
+\item 
+\mbox{\Hypertarget{main_8c_adcdece25303cc29ed10d647c89a4ab95}\label{main_8c_adcdece25303cc29ed10d647c89a4ab95}} 
+\#define {\bfseries E\+R\+R\+\_\+\+R\+A\+N\+G\+E\+\_\+\+N\+UM}~3
+\item 
+\mbox{\Hypertarget{main_8c_a5f6f03e6773ea2a67b16a1e9a02b8467}\label{main_8c_a5f6f03e6773ea2a67b16a1e9a02b8467}} 
+\#define {\bfseries E\+R\+R\+\_\+\+M\+O\+R\+E100}~3
+\item 
+\mbox{\Hypertarget{main_8c_a5bca617ab5b79831176af3ad980fc3ba}\label{main_8c_a5bca617ab5b79831176af3ad980fc3ba}} 
+\#define {\bfseries E\+R\+R\+\_\+\+E\+M\+P\+TY}~3
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{main_8c_aee8c92887aa5260a90823f42e4467d6f}{check\+\_\+file}} (char file\+\_\+name\mbox{[}$\,$\mbox{]})
+\begin{DoxyCompactList}\small\item\em Проверка фала \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{main_8c_a7a3d3b169305cf301fdcd05611695a1a}{read\+\_\+num}} (char file\+\_\+name\mbox{[}$\,$\mbox{]}, int $\ast$arr, int $\ast$rc)
+\begin{DoxyCompactList}\small\item\em Считываем в массив чисела, расположенные в файле \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{main_8c_a5b9302081ee54670fa4546e084ee3310}{test\+\_\+read\+\_\+num}} (int rc)
+\begin{DoxyCompactList}\small\item\em Модульный тест для функции \mbox{\hyperlink{}{read\+\_\+num.}}\end{DoxyCompactList}\item 
+int \mbox{\hyperlink{main_8c_aac0dac32ce5dafa4589d9625fe549618}{sum\+\_\+num}} (int num)
+\begin{DoxyCompactList}\small\item\em Суммирует все цифры в числе \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{main_8c_a9173d2ff3a0a189350d59aabac159c25}{test\+\_\+sum\+\_\+num}} ()
+\begin{DoxyCompactList}\small\item\em Модульный тест для функции \mbox{\hyperlink{}{sum\+\_\+num.}}\end{DoxyCompactList}\item 
+char $\ast$ \mbox{\hyperlink{main_8c_ae2b696e37e87c269b835bea0a523bcc7}{dec\+\_\+to\+\_\+bin}} (char $\ast$str, int a)
+\begin{DoxyCompactList}\small\item\em Переводит число из 10-\/ой с/с в 2-\/ую с/с \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{main_8c_a1c5eb857f77b6216d0ff9c723f164904}{test\+\_\+dec\+\_\+to\+\_\+bin}} ()
+\begin{DoxyCompactList}\small\item\em Модульный тест для функции \mbox{\hyperlink{}{dec\+\_\+to\+\_\+bin.}}\end{DoxyCompactList}\item 
+int \mbox{\hyperlink{main_8c_a936fff4c9281a6160467e64a1e1b41e6}{upend\+\_\+num}} (int num)
+\begin{DoxyCompactList}\small\item\em Переворачивает число \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{main_8c_a6870b57ded3f815ce62ca82ac5637aec}{test\+\_\+upend\+\_\+num}} ()
+\begin{DoxyCompactList}\small\item\em Модульный тест для функции \mbox{\hyperlink{}{upend\+\_\+num.}}\end{DoxyCompactList}\item 
+int \mbox{\hyperlink{main_8c_a840291bc02cba5474a4cb46a9b9566fe}{main}} (void)
+\begin{DoxyCompactList}\small\item\em Точка входа в программу \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyAuthor}{Author}
+Вольняга Максим ИУ7-\/26Б 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+0.\+1 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+2022-\/05-\/13
+\end{DoxyDate}
+\begin{DoxyCopyright}{Copyright}
+Copyright (c) 2022 
+\end{DoxyCopyright}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{main_8c_aee8c92887aa5260a90823f42e4467d6f}\label{main_8c_aee8c92887aa5260a90823f42e4467d6f}} 
+\index{main.c@{main.c}!check\_file@{check\_file}}
+\index{check\_file@{check\_file}!main.c@{main.c}}
+\doxysubsubsection{\texorpdfstring{check\_file()}{check\_file()}}
+{\footnotesize\ttfamily int check\+\_\+file (\begin{DoxyParamCaption}\item[{char}]{file\+\_\+name\mbox{[}$\,$\mbox{]} }\end{DoxyParamCaption})}
+
+
+
+Проверка фала 
+
+@function check\+\_\+file 
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em file\+\_\+name} & – Файловая переменная \\
+\hline
+\mbox{\texttt{ out}}  & {\em rc} & -\/ Код ошибки \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Код ошибки 
+\end{DoxyReturn}
+\mbox{\Hypertarget{main_8c_ae2b696e37e87c269b835bea0a523bcc7}\label{main_8c_ae2b696e37e87c269b835bea0a523bcc7}} 
+\index{main.c@{main.c}!dec\_to\_bin@{dec\_to\_bin}}
+\index{dec\_to\_bin@{dec\_to\_bin}!main.c@{main.c}}
+\doxysubsubsection{\texorpdfstring{dec\_to\_bin()}{dec\_to\_bin()}}
+{\footnotesize\ttfamily char$\ast$ dec\+\_\+to\+\_\+bin (\begin{DoxyParamCaption}\item[{char $\ast$}]{str,  }\item[{int}]{a }\end{DoxyParamCaption})}
+
+
+
+Переводит число из 10-\/ой с/с в 2-\/ую с/с 
+
+@function dec\+\_\+to\+\_\+bin 
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in,out}}  & {\em } & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{main_8c_a840291bc02cba5474a4cb46a9b9566fe}\label{main_8c_a840291bc02cba5474a4cb46a9b9566fe}} 
+\index{main.c@{main.c}!main@{main}}
+\index{main@{main}!main.c@{main.c}}
+\doxysubsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily int main (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+
+
+Точка входа в программу 
+
+@function main 
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ out}}  & {\em rc} & -\/ Код ошибки \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Код ошибки 
+\end{DoxyReturn}
+\mbox{\Hypertarget{main_8c_a7a3d3b169305cf301fdcd05611695a1a}\label{main_8c_a7a3d3b169305cf301fdcd05611695a1a}} 
+\index{main.c@{main.c}!read\_num@{read\_num}}
+\index{read\_num@{read\_num}!main.c@{main.c}}
+\doxysubsubsection{\texorpdfstring{read\_num()}{read\_num()}}
+{\footnotesize\ttfamily int read\+\_\+num (\begin{DoxyParamCaption}\item[{char}]{file\+\_\+name\mbox{[}$\,$\mbox{]},  }\item[{int $\ast$}]{arr,  }\item[{int $\ast$}]{rc }\end{DoxyParamCaption})}
+
+
+
+Считываем в массив чисела, расположенные в файле 
+
+@function read\+\_\+num 
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em file\+\_\+name} & – Файловая переменная \\
+\hline
+\mbox{\texttt{ in}}  & {\em arr} & -\/ массив \\
+\hline
+\mbox{\texttt{ in}}  & {\em rc} & -\/ Код ошибки \\
+\hline
+\mbox{\texttt{ out}}  & {\em i} & -\/ Количество элементов вмассиве \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Количество элементов в массиве 
+\end{DoxyReturn}
+\mbox{\Hypertarget{main_8c_aac0dac32ce5dafa4589d9625fe549618}\label{main_8c_aac0dac32ce5dafa4589d9625fe549618}} 
+\index{main.c@{main.c}!sum\_num@{sum\_num}}
+\index{sum\_num@{sum\_num}!main.c@{main.c}}
+\doxysubsubsection{\texorpdfstring{sum\_num()}{sum\_num()}}
+{\footnotesize\ttfamily int sum\+\_\+num (\begin{DoxyParamCaption}\item[{int}]{num }\end{DoxyParamCaption})}
+
+
+
+Суммирует все цифры в числе 
+
+@function sum\+\_\+num 
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em num} & – Число \\
+\hline
+\mbox{\texttt{ out}}  & {\em sum\+\_\+num} & -\/ Сумма цифр числа \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Сумма цифр числа 
+\end{DoxyReturn}
+\mbox{\Hypertarget{main_8c_a1c5eb857f77b6216d0ff9c723f164904}\label{main_8c_a1c5eb857f77b6216d0ff9c723f164904}} 
+\index{main.c@{main.c}!test\_dec\_to\_bin@{test\_dec\_to\_bin}}
+\index{test\_dec\_to\_bin@{test\_dec\_to\_bin}!main.c@{main.c}}
+\doxysubsubsection{\texorpdfstring{test\_dec\_to\_bin()}{test\_dec\_to\_bin()}}
+{\footnotesize\ttfamily int test\+\_\+dec\+\_\+to\+\_\+bin (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Модульный тест для функции \mbox{\hyperlink{}{dec\+\_\+to\+\_\+bin.}}
+
+\begin{DoxyReturn}{Returns}
+Количество проваленных тестов 
+\end{DoxyReturn}
+\mbox{\Hypertarget{main_8c_a5b9302081ee54670fa4546e084ee3310}\label{main_8c_a5b9302081ee54670fa4546e084ee3310}} 
+\index{main.c@{main.c}!test\_read\_num@{test\_read\_num}}
+\index{test\_read\_num@{test\_read\_num}!main.c@{main.c}}
+\doxysubsubsection{\texorpdfstring{test\_read\_num()}{test\_read\_num()}}
+{\footnotesize\ttfamily int test\+\_\+read\+\_\+num (\begin{DoxyParamCaption}\item[{int}]{rc }\end{DoxyParamCaption})}
+
+
+
+Модульный тест для функции \mbox{\hyperlink{}{read\+\_\+num.}}
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em rc} & -\/ код ошибки \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Количество проваленных тестов 
+\end{DoxyReturn}
+\mbox{\Hypertarget{main_8c_a9173d2ff3a0a189350d59aabac159c25}\label{main_8c_a9173d2ff3a0a189350d59aabac159c25}} 
+\index{main.c@{main.c}!test\_sum\_num@{test\_sum\_num}}
+\index{test\_sum\_num@{test\_sum\_num}!main.c@{main.c}}
+\doxysubsubsection{\texorpdfstring{test\_sum\_num()}{test\_sum\_num()}}
+{\footnotesize\ttfamily int test\+\_\+sum\+\_\+num (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Модульный тест для функции \mbox{\hyperlink{}{sum\+\_\+num.}}
+
+\begin{DoxyReturn}{Returns}
+Количество проваленных тестов 
+\end{DoxyReturn}
+\mbox{\Hypertarget{main_8c_a6870b57ded3f815ce62ca82ac5637aec}\label{main_8c_a6870b57ded3f815ce62ca82ac5637aec}} 
+\index{main.c@{main.c}!test\_upend\_num@{test\_upend\_num}}
+\index{test\_upend\_num@{test\_upend\_num}!main.c@{main.c}}
+\doxysubsubsection{\texorpdfstring{test\_upend\_num()}{test\_upend\_num()}}
+{\footnotesize\ttfamily int test\+\_\+upend\+\_\+num (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Модульный тест для функции \mbox{\hyperlink{}{upend\+\_\+num.}}
+
+\begin{DoxyReturn}{Returns}
+Количество проваленных тестов 
+\end{DoxyReturn}
+\mbox{\Hypertarget{main_8c_a936fff4c9281a6160467e64a1e1b41e6}\label{main_8c_a936fff4c9281a6160467e64a1e1b41e6}} 
+\index{main.c@{main.c}!upend\_num@{upend\_num}}
+\index{upend\_num@{upend\_num}!main.c@{main.c}}
+\doxysubsubsection{\texorpdfstring{upend\_num()}{upend\_num()}}
+{\footnotesize\ttfamily int upend\+\_\+num (\begin{DoxyParamCaption}\item[{int}]{num }\end{DoxyParamCaption})}
+
+
+
+Переворачивает число 
+
+@function upend\+\_\+num 
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em num} & – Число \\
+\hline
+\mbox{\texttt{ out}}  & {\em rev} & -\/ Перевернутое число \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Перевернутое число 
+\end{DoxyReturn}
